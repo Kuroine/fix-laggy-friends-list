@@ -18,7 +18,7 @@ module.exports = function FixLaggyFriendsList(mod) {
         friendInfo = undefined;
     });
 
-    mod.hook('S_UPDATE_FRIEND_INFO', 1, event => {
+    mod.hook('S_UPDATE_FRIEND_INFO', 2, event => {
         // Store and grow the Update data until the client requests it.
         if (friendInfo == undefined) {
             friendInfo = event;

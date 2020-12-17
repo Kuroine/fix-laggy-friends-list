@@ -1,5 +1,12 @@
 {
-  "files": {
-    "index.js": "92c036bcb3301f6822dc5d1bf56548ddc3729767e6402a7979592f5f5320445e"
-  }
+    "files": {
+        "README.MD": "55ac23e94692f91209b142e8efc86a4dad5841fb847b89634969bc388d0c8d58",
+        "index.js": "d706e922af33881d8da151cec3d06c72b8982ec30dec944d6cf9a94e05a7a562",
+        "module.json": "24b64d16ec8a78959e038ebc7297f66feb28b28bc932caef1cd36cb1cf99b7e6"
+    },
+    "defs": {
+        "C_UPDATE_FRIEND_INFO": "raw",
+        "S_LOGIN": "raw",
+        "S_UPDATE_FRIEND_INFO": [1,2]
+    }
 }
